@@ -1,3 +1,47 @@
 body {
-  font-family: sans-serif;
+  font-family: Verdana, Arial, sans-serif;
 }
+
+.green {
+  background-color: #abffbd
+}
+
+.red {
+  background-color: #ff9e9e
+}
+
+td {
+  padding: 6px;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: gray;
+}
+
+th {
+  background-color: #b7d0ff;
+  font: bold;
+  padding: 12px 0px 12px 6px;
+  border-bottom: 2px solid gray;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 16px;
+  table-layout: fixed;
+  text-align: left;
+  width: 100%;
+}
+
+.center {
+  margin: auto;
+  padding: 60px;
+  width: 60%;
+}
+
+h1 {
+  text-align:center
+}
+
+/* tr:nth-child(even) {
+  background-color: #f2f2f2;
+} */
